@@ -1,0 +1,29 @@
+*{
+	margin:15px 0px -10px 0px;
+}
+.header{
+   height: 100px;
+   background: linear-gradient(0deg,aquamarine,#fff,#fff,aquamarine);
+   padding: 0 20px;
+}
+.header h1{
+  line-height: 100px;
+  font-family:stencil;
+  color:gray;
+}
+.header h1:hover{
+    color:black;
+}
+.gallery{
+	margin: 10px 50px;
+}
+.gallery img{
+	transition: 0.2s;
+	padding: 15px;
+	width: 200px;
+
+}
+.gallery img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}

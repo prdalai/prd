@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+	font-size:20px;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../4.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position:center;
+}
+ul{
+	list-style-type:none;
+	float:right;
+	margin-top:25px;
+}
+ul li{
+	display:inline-block;
+}
+ul li a {
+	text-decoration: none; color: #fff;
+	padding: 3px 10px;
+	transition:0.5s ease
+}
+ul li a:hover{
+	background-color:#00F9D1;
+	color:black;
+	
+}
+ul li.active3 a{
+	background-color:#00F9D1;
+	color:black;
+}
+.title{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: white;
+	font-size:50px;
+	transition:0.5s ease;
+}
+.title h1:hover{
+	background-color:#ffffff;
+	opacity: .4;
+	padding:25px;
+	background-size:300px 100px;
+	color:black;
+}
+.ic {
+	position: fixed;
+	top:10%;
+	left:0%;
+	width:200px;
+	display:flex;
+	flex-direction:column;
+
+}
+.ic a{
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:10px;
+	font-size:18px;
+	font-family:'oswald ', sans-serif;
+	margin:2px;
+	text-align:right;
+	border-radius: 0px 50px 50px 0px;
+	transform:translate(-140px,0px);
+	transition: all 0.3s;
+}
+.ic a:hover{
+	transform: translate(0px,0px);
+}
+.ic a i{
+	margin-left:10px;
+	background-color:white;
+	height:40px;
+	width:40px;
+	color:cyan;
+	text-align:center;
+	line-height:40px;
+	border-radius:50%;
+	transition:all 0.3s;
+}
+.ic a i:hover{
+	transform: rotate(360deg);
+}
+.ic a i.fa-facebook-f{
+	color:#2c80d3;
+}
+.ic a i.fa-youtube{
+	color:#fa0910;
+}
+.ic a i.fa-twitter{
+	color:#53c5ff;
+}
+.ic a i.fa-instagram{
+	color:#bc2a8d;
+}
+.ic a i.fa-phone{
+	color:#339900;
+}
+.ic a i.fa-whatsapp{
+	color:#58D68D;
+}
+.ic a i.fa-wordpress{
+	color:#21759b;
+}
+.ic a i.fa-wix{
+	color:#000000;
+}
+.fb
+{
+	background-color: #2c80d3;
+	color:white;
+}
+.yt
+{
+	background-color: #fa0910;
+	color:white;
+}
+.twit
+{
+	background-color: #53c5ff;
+	color:white;
+}
+.insta
+{
+	background-color: #bc2a8d;
+	color:white;
+}
+.ca
+{
+	background-color: #339900 ;
+	color:white;
+}
+.whatsapp
+{
+	background-color: #58D68D;
+	color:white;
+}
+.wp
+{
+	background-color: #21759b;
+	color:white;
+}
+.wix
+{
+	background-color: #000000;
+	color:white;
+}
